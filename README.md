@@ -8,9 +8,9 @@ Add this line to your application's Gemfile:
 
     gem 'markdownjs-rails'
 
-Add the following directive to your Javascript manifest file (application.js):
+Add the following directive to your Javascript manifest file (eg: application.js):
 
-    //= require moment
+    //= require markdown
 
 ## Versioning
 
