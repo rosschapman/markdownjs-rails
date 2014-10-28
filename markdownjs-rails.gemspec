@@ -5,7 +5,7 @@ require 'markdown/js/rails/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "markdownjs-rails"
-  spec.version       = Markdown::Js::Rails::VERSION
+  spec.version       = "0.5.0"
   spec.authors       = ["Ross Chapman"]
   spec.email         = ["rosschapman@gmail.com"]
   spec.summary       = "The markdownjs.js JavaScript library ready to play with Rails."
