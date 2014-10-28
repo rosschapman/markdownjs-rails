@@ -1,6 +1,6 @@
-# Markdown::Js::Rails
+# markdownjs-rails
 
-TODO: Write a gem description
+markdownjs-rails wraps the [Markdown.js](https://github.com/evilstreak/markdown-js) library in a rails engine for simple use with the asset pipeline provided by rails 3.1. The gem includes the development (non-minified) source for ease of exploration. The asset pipeline will minify in production.
 
 ## Installation
 
@@ -8,22 +8,12 @@ Add this line to your application's Gemfile:
 
     gem 'markdownjs-rails'
 
-And then execute:
+Add the following directive to your Javascript manifest file (application.js):
 
-    $ bundle
+    //= require moment
 
-Or install it yourself as:
+## Versioning
 
-    $ gem install markdownjs-rails
+markdownjs-rails 0.5.0 == Markdown.js 0.5.0
 
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/markdownjs-rails/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+Every attempt is made to mirror the currently shipping Markdown.js version number wherever possible. Should a gem bug be discovered, a 4th version identifier will be added and incremented.
