@@ -1,7 +1,8 @@
 module Markdown
   module Js
     module Rails
-      VERSION = "0.5.0"
+      class Engine < ::Rails::Engine
+      end
     end
   end
 end
