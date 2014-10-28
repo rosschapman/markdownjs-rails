@@ -2,20 +2,19 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-Gem::Specification.new do |spec|
-  spec.name          = "markdownjs-rails"
-  spec.version       = "0.5.0"
-  spec.authors       = ["Ross Chapman"]
-  spec.email         = ["rosschapman@gmail.com"]
-  spec.summary       = "The markdownjs.js JavaScript library ready to play with Rails."
-  spec.description   = ""
-  spec.homepage      = "https://github.com/rosschapman/markdownjs-rails"
-  spec.license       = "MIT"
+Gem::Specification.new do |gem|
+  gem.name          = "markdownjs-rails"
+  gem.version       = "0.5.0"
+  gem.authors       = ["Ross Chapman"]
+  gem.email         = ["rosschapman@gmail.com"]
+  gem.summary       = "A simple wrapper for markdown.js to play nice with the Rails asset pipeline."
+  gem.homepage      = "https://github.com/rosschapman/markdownjs-rails"
+  gem.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0")
-  spec.require_paths = ["lib"]
+  gem.files         = Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE", "README.md"]
+  gem.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.6"
-  spec.add_development_dependency "rake"
-  spec.add_dependency "railties", ">= 3.1"
+  gem.add_development_dependency "bundler", "~> 1.6"
+  gem.add_development_dependency "rake"
+  gem.add_dependency "railties", ">= 3.1"
 end
