@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.homepage      = "https://github.com/rosschapman/markdownjs-rails"
   gem.license       = "MIT"
 
-  gem.files         = Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE", "README.md"]
+  gem.files         = Dir["{lib,vendor}/**/*"] + ["README.md"]
   gem.require_paths = ["lib"]
 
   gem.add_development_dependency "bundler", "~> 1.6"
