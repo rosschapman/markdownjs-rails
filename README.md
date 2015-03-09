@@ -14,6 +14,6 @@ Add the following directive to your Javascript manifest file (eg: application.js
 
 ## Versioning
 
-markdownjs-rails 0.5.0 == Markdown.js 0.5.0
+markdownjs-rails 1.0.0 == Markdown.js 1.0.0
 
 Every attempt is made to mirror the currently shipping Markdown.js version number wherever possible. Should a gem bug be discovered, a 4th version identifier will be added and incremented.
