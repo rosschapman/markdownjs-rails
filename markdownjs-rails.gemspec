@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "markdownjs-rails"
-  gem.version       = "1.0.1"
+  gem.version       = "1.0.2"
   gem.authors       = ["Ross Chapman"]
   gem.email         = ["rosschapman@gmail.com"]
   gem.summary       = "A simple wrapper for markdown.js to play nice with the Rails asset pipeline."
   gem.homepage      = "https://github.com/rosschapman/markdownjs-rails"
   gem.license       = "MIT"
 
-  gem.files         = Dir["{lib,vendor}/**/*"] + ["README.md"]
+  gem.files         = Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE.txt", "README.md"]
   gem.require_paths = ["lib"]
 
   gem.add_development_dependency "bundler", "~> 1.6"
