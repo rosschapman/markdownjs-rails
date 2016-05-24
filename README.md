@@ -13,5 +13,11 @@ Add this line to your application's Gemfile:
 Add the following directive to your Javascript manifest file (eg: application.js):
 
     //= require markdown
-    
-Complete documentation can be found on the [markdonw-js readme](https://github.com/evilstreak/markdown-js).
+
+## Basic usage:
+```
+    md_content = "Hello.\n\n* This is markdown.\n* It is fun\n* Love it or leave it."
+    html_content = markdown.toHTML( md_content );
+```
+
+And the complete documentation can be found on the [markdonw-js readme](https://github.com/evilstreak/markdown-js).
