@@ -1,0 +1,24 @@
+{
+  "name": "markdownjs-rails",
+  "version": "2.0.0",
+  "description": "**markdownjs-rails** wraps the [markdown-js](https://github.com/evilstreak/markdown-js) library for silky smooth use with the asset pipeline provided by Rails 3.1. The gem includes the development (non-minified) source for ease of exploration. The asset pipeline will handle minification in your production environment or if you set `config.assets.debug = false` in other environments.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freddyrangel/markdownjs-rails.git"
+  },
+  "scripts": {
+    "build": "node ./scripts/build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freddyrangel/markdownjs-rails/issues"
+  },
+  "homepage": "https://github.com/freddyrangel/markdownjs-rails#readme",
+  "dependencies": {
+    "markdown": "0.5.0"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.1"
+  }
+}
