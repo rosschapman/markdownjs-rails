@@ -21,3 +21,8 @@ html_content = markdown.toHTML( md_content );
 ```
 
 And the complete documentation can be found on the [markdonw-js readme](https://github.com/evilstreak/markdown-js).
+
+## Updating this gem
+Update the version of markdown-js in `package.json`.
+Update dependencies with `npm install`
+Run `npm run build`.
